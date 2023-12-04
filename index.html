@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jerome Midterm Lab</title>
+    
+    <style>
+      nav a {
+        text-decoration: none;
+        color: black;
+        font-family: "League Spartan";
+      }
+      
+      nav a:hover,
+      nav a:active {
+        color: red;
+        font-size: 110%;
+      }
+      
+      .nav-underline li a {
+        color: white !important;
+      }
+      
+      .nav-underline li a:hover {
+        padding: 2% 1%;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-size: 20%;
+      
+      }
+      
+      h2 {
+        font-family: "Montserrat";
+      }
+      
+      h3 {
+        font-family: "League Spartan";
+      }
+      
+      h5 {
+        font-family: "League Spartan";
+        font-weight: bold;
+      }
+      
+      p {
+        font-family: "Montserrat";
+      }
+      
+      li {
+        list-style: none;
+      }
+      
+      #home {
+        background-image: url(http://surl.li/lzeuj);
+        background-repeat: none;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        font-family: "Montserrat";
+      }
+      
+      #home a:hover {
+        overflow-x: hidden;
+        color: grey;
+      }
+      
+      #home a {
+        color: white;
+      }
+      
+      #education {
+        background-image: url(https://i.pinimg.com/originals/ea/87/19/ea87191404a209c83613888054df3e50.gif);
+        background-repeat: none;
+        background-size: cover;
+        background-position: center;
+      }
+      
+      #favorites i {
+        color: black;
+      }
+      
+      #favorites {
+        background-image: url(https://i.pinimg.com/originals/fe/e9/3f/fee93f4fbdb4604075425c0463eb8cf4.gif);
+        background-repeat: none;
+        background-size: cover;
+        background-position: center;
+      }
+      
+      #cor table,
+      #cor thead {
+        vertical-align: middle;
+        font-family: "Montserrat";
+      }
+      
+      .container-table {
+        border-radius: 10%;
+      }
+      
+      card-img-top {
+        border-radius: 50%;
+      }
+      
+      .nav-tabs li a {
+        color: white;
+      }
+    </style>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-dark py-2 fixed-top">
+      <div class="container">
+        <a href="#home" class="navbar-brand text-dark fw-bold fs-3">ROME</a>
+
+        <button
+          class="navbar-toggler bg-dark"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link px-3">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link px-3">About</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#education" class="navbar-link px-3">Education</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#hobbies" class="navbar-link px-3">Hobbies</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#favorites" class="navbar-link px-3">Favorites</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#cor" class="navbar-link px-3">Schedule</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- home -->
+    <section id="home" class="p-5 bg-dark">
+      <div class="row min-vh-100 p-5 align-items-center">
+        <div class="row align-items-center">
+          <div class="col text-center">
+            <h5>Hello I'm</h5>
+            <h1 class="fw-bold">JEROME DELOS SANTOS</h1>
+            <div class="">
+              <a
+                href="https://www.facebook.com/romemnc?mibextid=ZbWKwL"
+                target="_blank"
+                ><i class="bi bi-facebook mx-2 fs-2"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/romemnc?mibextid=ZbWKwL"
+                target="_blank"
+                ><i class="bi bi-instagram mx-2 fs-2"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+
+    <section id="about" class="py-5 bg-light">
+      <div class="container">
+        <h3 id="title" class="fw-bold pb-3 pt-5 text-center">ABOUT ME</h3>
+      </div>
+      <div class="container pb-5">
+        <div class="row align-items-center">
+          <div class="col-md-4 my-3 my-sm-0">
+            <img
+              src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaAam0MP2QjVA8j06aqlDhGkWLB-DukR4PieoUAlhBxPbva3DDHSPXsInMHR4OLJsqHGAlp_5TQzFTcc-izB1nogyUPfFA=s2560"
+              alt="profile"
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-md-8 my-3 my-md-0">
+            <div class="text-center text-md-start">
+              <p class="fw-bold fs-3">Jerome Mancia Delos Santos</p>
+              <p>
+                I am a student at Kolehiyo ng Lungsod ng Dasmariñas currently
+                taking a course program in Bachelor of Science in Information
+                System. I love music and photography.
+              </p>
+              <div class="row">
+                <div class="col-md-7">
+                  <li><h5>BIRTHDAY</h5></li>
+                  <li class="text-muted mb-3">
+                    <i class="bi bi-chevron-right"></i>17 DECEMBER 2004
+                  </li>
+                  <li><h5>CITY ADDRESS</h5></li>
+                  <li class="text-muted mb-3">
+                    <i class="bi bi-chevron-right"></i>DASMARIÑAS CITY, CAVITE
+                  </li>
+                </div>
+                <div class="col-md-5">
+                  <li><h5>AGE</h5></li>
+                  <li class="text-muted mb-3">
+                    <i class="bi bi-chevron-right"></i>18
+                  </li>
+                  <li><h5>NATIONALITY</h5></li>
+                  <li class="text-muted mb-3">
+                    <i class="bi bi-chevron-right"></i>FILIPINO
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- edukasyon -->
+    <section id="education" class="py-5">
+      <div class="container">
+        <h3 id="title" class="fw-bold pb-3 pt-5 text-center text-white">
+          EDUCATION
+        </h3>
+      </div>
+      <div class="container pb-5">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 my-2">
+            <div class="text-center card">
+              <div class="img-area m-3">
+                <a
+                  href="https://www.facebook.com/KLDOfficialFBPage?mibextid=ZbWKwL"
+                  target="_blank"
+                >
+                  <img
+                    class="card-img-top"
+                    src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaAF-TtKVfdysSB1PJgRmuL_ocrhdmUQJ9G3RlJVsU0fTdP_8U_zAo4k9V8kdiTsDem5qmz_jtM6M_KGnqh1TSEoHmaKog=s2560"
+                    alt="tertiary"
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <div class="card-title">
+                  <h2 class="fw-bold">KLD</h2>
+                  <h5 class="text-muted">TERTIARY</h5>
+                  <p>2023 – NOW</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 my-2">
+            <div class="text-center card">
+              <div class="img-area m-3">
+                <a
+                  href="https://www.facebook.com/DepEdTayoDEIHS301183?mibextid=ZbWKwL"
+                  target="_blank"
+                >
+                  <img
+                    class="card-img-top"
+                    src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaCSW61kOCyEH5CqlKEF5LkXpPVYjoQbiJ1zibhG0BA45dhacNpGWLUcjVAlJWfFKpxxhhxzqs40J2VqFbd4eE6fuud9=s2560"
+                    alt="secondary"
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <div class="card-title">
+                  <h2 class="fw-bold">DEIHS</h2>
+                  <h5 class="text-muted">SENIOR HIGH</h5>
+                  <p>2021 – 2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 my-2">
+            <div class="text-center card">
+              <div class="img-area m-3">
+                <a
+                  href="https://www.facebook.com/DepEdTayoPNHS301187?mibextid=ZbWKwL"
+                  target="_blank"
+                >
+                  <img
+                    class="card-img-top"
+                    src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaDqH4h0CTI_bZWTXvmQ0KDcClaVeHMgYV_NvRdpZeEKV6EJjY3G0yOXYtN7fHkktsghCIxYO9mZTWCNz8yAP7Avch_h1g=s2560"
+                    alt="junior"
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <div class="card-title">
+                  <h2 class="fw-bold">PNHS</h2>
+                  <h5 class="text-muted">JUNIOR HIGH</h5>
+                  <p>2017 – 2021</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6 my-2">
+            <div class="text-center card">
+              <div class="img-area m-3">
+                <a
+                  href="https://www.facebook.com/DepEdTayoSCES107918?mibextid=ZbWKwL"
+                  target="_blank"
+                >
+                  <img
+                    class="card-img-top"
+                    src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaAiQcLahbEpDFbcuLT9WL5uf9SMISOIH1C0J4WiXceJgghh07OVEMkzIeUwJjQh3XS9jwmpYiQeQNJTPTGcC-xoV3fY=s2560"
+                    alt="elem"
+                  />
+                </a>
+              </div>
+              <div class="card-body">
+                <div class="card-title">
+                  <h2 class="fw-bold">SCES</h2>
+                  <h5 class="text-muted">PRIMARY</h5>
+                  <p>2011 – 2017</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- hobbies -->
+    <section id="hobbies" class="py-5 bg-light">
+      <div class="container">
+        <h3 id="title" class="fw-bold pb-3 pt-5 text-center">HOBBY</h3>
+      </div>
+      <div class="container pb-5">
+        <div class="row text-center align-items-center">
+          <div class="col-md-6 col-lg-4 my-2">
+            <img
+              src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaCWrfE26MyN39ZnLan5s3SlK4mrlzbW7G4rAcLXer-mbZnMAdXfPx_BflLJLkMCIBpBDpTeAFKfQo8figxmtMOc2CMJSQ=s2560"
+              alt="garden"
+              class="img img-fluid">
+          </div>
+          
+          <div class="col-md-6 col-lg-4 my-2">
+            <img
+              src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaAGUN4Sq_OpQ97LX9LzpJRmS3d7NgYQrKuYJal4UzarB9sc3572sAJiPUtdf2pc1D00W1aUvbotplYYUT5LHisldxAgKg=s2560"
+              alt="lights"
+              class="img img-fluid">
+          </div>
+          
+          <div class="col-md-6 col-lg-4 my-2">
+            <img
+              src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaDfkzuqqjBYc1kzvbXFKT7hE2JtvPFPisKuwt6phQBfyFZVCHL3gdiMHQYwC3nMabCJKj4ErOkA41Jhh1-vfOh-qPByRg=s2560"
+              alt="pingpong"
+              class="img img-fluid">
+          </div>
+       
+          <div class="col-md-6 col-lg-4 my-2">
+            <img
+            src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaDtbG7GbqjWDc_w2XYFTXeWxGv43NYC_4cD6OEs7z2DryizDm3w5g_MYFA15xjxi1uyLFx3KtRU2riG0b_EvxHUEMTygg=s2560"
+            alt="skyleaves"
+            class="img img-fluid">
+          </div>
+            
+          <div class="col-md-12 col-lg-4 my-2">
+            <div class="shadow-sm pt-4 px-4 pb-2 rounded bg-white text-center">
+              <div class="icon p-3 fs-1">
+                <i class="bi bi-camera"></i>
+                <h3 class="pt-2">Photography</h3>
+                <p class="fs-5 text-muted">I love taking photos.</p>
+              </div>
+            </div>
+          </div>
+            
+          <div class="col-md-6 col-lg-4 my-2">
+            <img
+            src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaB4oLfOm-hb7AjAmOXG7nDiu8qQDBtr6bVGblYQSjI4MhhDvaFw7UGmc9XVC3cM2cRHErxrt3hFbVfGItt57qCW6g1ckQ=s2560"
+            alt="homebase"
+            class="img img-fluid">
+            </div>
+          
+          <div class="col-md-6 col-lg-4 my-2">
+            <img
+            src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaBv6g1de9qov9Q69mwtwPm0gVdE7CGNVfau_Q9JlJDkv8tJ0u1shyXaJ631pLBckKwhwEUtOQf-UG1iIs7V5lXOq1-A=s2560"
+            alt="pots"
+            class="img img-fluid"
+            />
+          </div>
+            
+          <div class="col-md-6 col-lg-4 my-2">
+            <img
+            src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaDi9DtCouib50EOpJjhWHvQeyaliCE27QpVgniPMtUcj4zn-9zytzCFhtRQKD1mx1vl3O_0xbhS3pH8cxaYDp-9hUhstA=s2560"
+            alt="couple"
+            class="img img-fluid">
+          </div>
+            
+          <div class="col-md-6 col-lg-4 my-2">
+            <img
+            src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaBpIRk0To8-sLUayNa7hZWMwROILRrn6lrAQuEiYpb03HJHF_3Vm9Q1YBegQyM6Ni5PH-LDpURfGkMkbr8Y9GoBEEWX1Q=s2560"
+            alt="tree"
+            class="img img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- favs -->
+    <section id="favorites" class="py-5">
+      <div class="container">
+        <h3 id="title" class="fw-bold pb-3 pt-5 text-center text-white">
+          FAVORITES
+        </h3>
+      </div>
+      <div class="container pb-5">
+        <ul class="nav nav-underline justify-content-center" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="pill" href="#album"
+              >Albums</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="pill" href="#songs">Songs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="pill" href="#series">Series</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="pill" href="#games">Games</a>
+          </li>
+        </ul>
+        <!-- kanta -->
+        <div class="tab-content">
+          <div id="songs" class="container tab-pane fade">
+            <br />
+            <div class="container text-center pb-3">
+              <span class="badge text-bg-light text-dark">RnB</span>
+              <span class="badge text-bg-light text-dark">K-INDIE</span>
+              <span class="badge text-bg-light text-dark">JAZZ</span>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card my-2">
+                  <div class="img-area m-3">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5VM-kPRhz70EkzqZfIi9AbPSkthgRkIRs_A&usqp=CAU"
+                      alt="album"
+                      class="card-img-top rounded img-fluid"
+                    />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">love.</h5>
+                    <p class="card-text">wave to earth</p>
+                    <a href="https://spotify.link/xZ72DhxZIDb"
+                      ><h4><i class="bi bi-spotify"></i></h4
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card my-2">
+                  <div class="img-area m-3">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHrxj3KKP-LYJEtjZyxPWftlov9g8hPIcS-A&usqp=CAU"
+                      alt="album"
+                      class="card-img-top rounded img-fluid"
+                    />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">seasons</h5>
+                    <p class="card-text">wave to earth</p>
+                    <a href="https://spotify.link/NcsWcwtZIDb"
+                      ><h4><i class="bi bi-spotify"></i></h4
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card my-2">
+                  <div class="img-area m-3">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMHVHjmxfPUOXMlS_sftzysFJ6ImnlWEZVdw&usqp=CAU"
+                      alt="album"
+                      class="card-img-top rounded img-fluid"
+                    />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">Night</h5>
+                    <p class="card-text">O3ohn</p>
+                    <a href="https://spotify.link/6kvYfuyZIDb"
+                      ><h4><i class="bi bi-spotify"></i></h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- album -->
+        <div class="tab-content">
+          <div id="album" class="container tab-pane active">
+            <br />
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card my-2">
+                  <div class="img-area m-3">
+                    <a
+                      href="https://youtube.com/playlist?list=PLINj2JJM1jxNNBnGb3WvHmcyCyfl0VlJX&si=FfCjLs2x-CK_VG_4"
+                      target="_blank"
+                    >
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/en/f/f8/Taylor_Swift_-_Folklore.png"
+                        alt="album"
+                        class="card-img-top rounded img-fluid"
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">folklore</h5>
+                    <p class="card-text">Taylor Swift</p>
+                    <a href="https://spotify.link/WqXIvQbSIDb" target="_blank"
+                      ><h4><i class="bi bi-spotify"></i></h4
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card my-2">
+                  <div class="img-area m-3">
+                    <a
+                      href="https://youtube.com/playlist?list=OLAK5uy_kClWWfWghQXro7ONQ-DfH3RZ1oxiu0kMA&si=IDytwmgZ8D_Uok7Q"
+                      target="_blank"
+                    >
+                      <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR930TCXUhnm70Debnxza5uHMIufiU4xyPskA&usqp=CAU"
+                        alt="album"
+                        class="card-img-top rounded img-fluid"
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">Blonde</h5>
+                    <p class="card-text">Frank Ocean</p>
+                    <a href="https://spotify.link/ywY6ptQSIDb" target="_blank"
+                      ><h4><i class="bi bi-spotify"></i></h4
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card my-2">
+                  <div class="img-area m-3">
+                    <a
+                      href="https://youtube.com/playlist?list=PLUJrh1AyIa2o1qoB78wvYiCphr-ImX0Dh&si=57PfIc3zyTj_0_GE"
+                      target="_blank"
+                    >
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Cigarettes_After_Sex_%28album%29.svg/1200px-Cigarettes_After_Sex_%28album%29.svg.png"
+                        alt="album"
+                        class="card-img-top rounded img-fluid"
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">Cigarettes After Sex</h5>
+                    <p class="card-text">Cigarettes After Sex</p>
+                    <a href="https://spotify.link/lerNz8XSIDb" target="_blank"
+                      ><h4><i class="bi bi-spotify"></i></h4>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- series -->
+        <div class="tab-content">
+          <div id="series" class="container tab-pane fade">
+            <br />
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card my-2">
+                  <div class="img-area m-3">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNYkgkOroi50na0y-y8a68rvrYWRi4k1ZB_A&usqp=CAU"
+                      alt="album"
+                      class="card-img-top rounded img-fluid"
+                    />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">Saiki K.</h5>
+                    <p class="card-text">2016 - 2018</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card my-2">
+                  <div class="img-area m-3">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdJI4u5VapcGP6y56-PivFULpWP0UNp5utYw&usqp=CAU"
+                      alt="album"
+                      class="card-img-top rounded img-fluid"
+                    />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">Our Beloved Summer</h5>
+                    <p class="card-text">2021 - 2022</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card my-2">
+                  <div class="img-area m-3">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXl9tUKM0JtxJTv8ND5OMoIzM0QejuCmX87g&usqp=CAU"
+                      alt="album"
+                      class="card-img-top rounded img-fluid"
+                    />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">Attack on Titan</h5>
+                    <p class="card-text">2013 - 2023</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- laro -->
+        <div class="tab-content">
+          <div id="games" class="container tab-pane fade">
+            <br />
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card my-2">
+                  <div class="img-area m-3">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsREl86a1sprB2oM3Eihu2gMT12J-4EK3s7A&usqp=CAU"
+                      alt="album"
+                      class="card-img-top rounded img-fluid"
+                    />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">Minecraft</h5>
+                    <p class="card-text">Mojang</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card my-2">
+                  <div class="img-area m-3">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuZo-HRFWqpF6pqjQz76hRI3WFPxQjBolR6g&usqp=CAU"
+                      alt="album"
+                      class="card-img-top rounded img-fluid"
+                    />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">Clash of Clans</h5>
+                    <p class="card-text">Supercell</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card my-2">
+                  <div class="img-area m-3">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg"
+                      alt="album"
+                      class="card-img-top rounded img-fluid"
+                    />
+                  </div>
+                  <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">Pokémon Emerald</h5>
+                    <p class="card-text">Game Freak</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- schedule -->
+    <section id="cor" class="py-5 bg-light">
+      <div class="">
+        <h3 id="title" class="fw-bold pb-3 pt-5 text-center">
+          CERTIFICATE OF REGISTRATION
+        </h3>
+      </div>
+      <div class="container pb-5">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="container-table bg-light shadow-lg p-5">
+              <h3 id="title" class="text-center fw-bold">CLASS SCHEDULE</h3>
+              <p class="text-center fw-bold fs-4">BSIS-102</p>
+              <div class="container-content table-responsive-md rounded">
+                <table class="table table-sm table-hover text-center">
+                  <thead class="table-dark">
+                    <tr>
+                      <th>Section</th>
+                      <th>Course Code</th>
+                      <th>Course Title</th>
+                      <th>Units</th>
+                      <th>Days</th>
+                      <th>Time</th>
+                      <th>Room</th>
+                      <th>Faculty</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>BSIS 102</td>
+                      <td>CCIS1101L</td>
+                      <td>Introduction to Computing Lab</td>
+                      <td>1</td>
+                      <td>M</td>
+                      <td><strong>10:00 to 13:00</strong></td>
+                      <td>ComLab1</td>
+                      <td>Borja, Mark</td>
+                    </tr>
+                    <tr>
+                      <td>BSIS 102</td>
+                      <td>CCIS1101</td>
+                      <td>Introduction to Computing Lec</td>
+                      <td>2</td>
+                      <td>H</td>
+                      <td><strong>14:00 to 16:00</strong></td>
+                      <td>1302</td>
+                      <td>Serrano, Con</td>
+                    </tr>
+                    <tr>
+                      <td>BSIS 102</td>
+                      <td>CCIS1102L</td>
+                      <td>Computer Programming 1 Lab</td>
+                      <td>1</td>
+                      <td>H</td>
+                      <td><strong>10:00 to 13:00</strong></td>
+                      <td>ComLab1</td>
+                      <td>Salacsacan, Annabelle</td>
+                    </tr>
+                    <tr>
+                      <td>BSIS 102</td>
+                      <td>CCIS1102</td>
+                      <td>Computer Programming 1 Lec</td>
+                      <td>2</td>
+                      <td>M</td>
+                      <td><strong>16:00 to 18:00</strong></td>
+                      <td>1302</td>
+                      <td>Salacsacan, Annabelle</td>
+                    </tr>
+                    <tr>
+                      <td>BSIS 102</td>
+                      <td>PCIS1101</td>
+                      <td>Fundamentals of Informarion System</td>
+                      <td>3</td>
+                      <td>TF</td>
+                      <td><strong>13:00 to 14:30</strong></td>
+                      <td>LMS</td>
+                      <td>Andaya, Khristian</td>
+                    </tr>
+                    <tr>
+                      <td>BSIS 102</td>
+                      <td>GEC4000</td>
+                      <td>Purposive Communication</td>
+                      <td>3</td>
+                      <td>TF</td>
+                      <td><strong>8:30 to 10:00</strong></td>
+                      <td>LMS</td>
+                      <td>Austria, Gerielyn</td>
+                    </tr>
+                    <tr>
+                      <td>BSIS 102</td>
+                      <td>GEC8000</td>
+                      <td>Science, Technology and Society</td>
+                      <td>3</td>
+                      <td>MH</td>
+                      <td><strong>7:00 to 8:30</strong></td>
+                      <td>1703</td>
+                      <td>Aquino, Jhellee</td>
+                    </tr>
+                    <tr>
+                      <td>BSIS 102</td>
+                      <td>GEC1000</td>
+                      <td>Living in the IT Era</td>
+                      <td>3</td>
+                      <td>TF</td>
+                      <td><strong>7:00 to 8:30</strong></td>
+                      <td>LMS</td>
+                      <td>Catalo, Alvin</td>
+                    </tr>
+                    <tr>
+                      <td>BSIS 102</td>
+                      <td>GEC9100</td>
+                      <td>Filipino 1</td>
+                      <td>3</td>
+                      <td>TF</td>
+                      <td><strong>10:00 to 11:30</strong></td>
+                      <td>LMS</td>
+                      <td>Aranas, Dessa</td>
+                    </tr>
+                    <tr>
+                      <td>BSIS 102</td>
+                      <td>NSTP1101</td>
+                      <td>Nation Service Training Program 1</td>
+                      <td>3</td>
+                      <td>H</td>
+                      <td><strong>13:00 16:00</strong></td>
+                      <td>Gym4</td>
+                      <td>Cong-ay, Lorielyn</td>
+                    </tr>
+                    <tr>
+                      <td>BSIS 102</td>
+                      <td>PE1101</td>
+                      <td>PATHFIT1</td>
+                      <td>2</td>
+                      <td>M</td>
+                      <td><strong>14:00 to 16:00</strong></td>
+                      <td>Gym2</td>
+                      <td>Bucad, Oscar</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
